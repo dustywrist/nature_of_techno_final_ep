@@ -420,7 +420,7 @@ body {
 
 .dg1:hover {
 
-  transition: 0.3s;
+  transition: 0.1s;
   background-image: url(../img/dj1.1.svg);
   background-size: cover;
   transform: scale(1.1);
@@ -445,7 +445,7 @@ body {
 
 .dg2:hover {
 
- transition: 0.3s;
+ transition: 0.1s;
  background-image: url(..//img/dj2.1.svg);
  background-size: cover;
  transform: scale(1.1);
@@ -470,7 +470,7 @@ body {
 
 .dg3:hover {
 
- transition: 0.3s;
+ transition: 0.1s;
  background-image: url(../img/dj3.1.svg);
  background-size: cover;
  transform: scale(1.1);
