@@ -1,0 +1,33 @@
+
+@font-face {
+    font-family: 'InterTightLight';
+    font-style: normal;
+    font-weight: 300;
+    src: url(../fonts/InterTight-Light.ttf) format('truetype');
+}
+
+
+@font-face {
+    font-family: 'InterTightMedium';
+    font-style: normal;
+    font-weight: 500;
+    src: url(../fonts/InterTight-Medium.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'InterTightRegular';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/InterTight-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'InterTightSemiBold';
+    font-style: normal;
+    font-weight: 600;
+    src: url(../fonts/InterTight-SemiBold.ttf) format('truetype');
+}
+
+
+
+

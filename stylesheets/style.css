@@ -1,0 +1,9 @@
+@import "reset.css";/* сбрoc настроек браузера */
+@import 'fonts.css'; /* подключение шрифтов*/
+@import 'animation.css'; /* анимация */
+@import 'layout.css'; /* обычный css для души с характеристиками */
+@import "adaptive.css";/* адаптивность */
+
+
+
+
