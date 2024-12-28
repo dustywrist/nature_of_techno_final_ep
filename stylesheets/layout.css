@@ -1,5 +1,9 @@
 
-body {min-height: 100%;} 
+body {
+  
+  min-height: 100%;
+
+} 
 
    
  
@@ -9,7 +13,6 @@ body {
   max-width: 1980px; 
   overflow-x: hidden; 
   margin: 0; 
-  top: 2vw; 
   display: block; 
   position: relative; 
   box-sizing: border-box;
@@ -530,7 +533,7 @@ body {
   height: 45vw; 
   position: relative; 
   display: flex;  
-  top: -0.5vw; 
+  
 
 }
 
@@ -546,6 +549,7 @@ body {
   border: 0.5vw solid #FFF; 
   background-size: cover;
   animation: dance_flower 1s steps(1) infinite; 
+  border-top: none;
 
 }
 
@@ -570,6 +574,7 @@ body {
   border: 0.5vw solid #FFF; 
   justify-content: center;
   align-items: center;
+  border-top: none;
 
 }
 
@@ -614,6 +619,7 @@ body {
   width: 40vw;
   height: 38vw;
   border: 0.5vw solid #FFF;
+  border-top: none;
 
 }
 
@@ -654,13 +660,14 @@ body {
 .line_data {
 
   position: absolute;
-  margin-top: 30.47vw;
+  margin-top: 30vw;
   margin-left: 29.95vw;
   overflow: hidden;
   width: 69.06vw;
-  height: 13.55vw;
+  height: 14.1vw;
   border: 0.5vw solid #FFF;
   background-color: #EAFE01;
+  
 
 }
 
@@ -706,10 +713,11 @@ body {
   position: relative;
   display: flex;
   border: 0.5vw solid #FFF;
-  top: -1vw;
   justify-content: center; 
   align-items: flex-end;
   padding: 3vw;
+  border-bottom: none;
+  border-top: none;
 
 }
 
@@ -868,7 +876,6 @@ body {
   border-top: 0.5vw solid #FFF; 
   display: flex; 
   align-items: center; 
-  top: -1.5vw;
 
 }
 

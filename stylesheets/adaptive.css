@@ -1,19 +1,7 @@
-/* ///////////////////////// Мобильные устройства ///////////////////////// */
-@media screen and (max-width: 414px) and (orientation: portrait) {
-    /* Вертикальная ориентация для мобильных устройств иногда 430px */
-}
 
+/* ///////////////////////// планшет ///////////////////////// */
 
-
-
-
-
-
-
-
-/* ///////////////////////// Маленькие экраны ///////////////////////// */
 @media screen and (min-width: 767px) and (max-width: 768px) and (orientation: portrait) {
-    
     
     .DG {
         height: 43vh;
@@ -21,9 +9,6 @@
         border-right: none;
         border-left: none;
     }
-
-
-
 
 }
 
@@ -38,7 +23,6 @@
         border-left: none;
     }
 
-
 }
 
 
@@ -49,159 +33,190 @@
 
 
 
+/* ///////////////////////// телефон андройд ///////////////////////// */
 
-
-
-
-
-
-
-
-/* ///////////////////////// Планшеты ///////////////////////// */
 @media screen and (min-width: 414px) and (max-width: 415px) and (orientation: portrait) {
 
-    body {
-        border: 0.5vw solid rgb(255, 255, 255); /* Задаем обводку шириной 0.5vw с цветом black */
-        margin: 0; /* Убираем отступы по умолчанию */
-        padding: 0; /* Убираем внутренние отступы по умолчанию */
-        
-    }
+body {
+
+    border: 0.5vw solid rgb(255, 255, 255); 
+    margin: 0; 
+    padding: 0; /
     
-
-    .hiscreen {
-        background-image: url(../img/grid.svg);
-        background-size: cover; 
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-    }
-
-    .ageline {
-        padding-top: 16%;
-        padding-bottom: 2%;
-    }
-    
-    .first_animation_line {
-        width: 100vw ;
-        height: 340vw;
-        flex-direction: column;
-    }
-
-    .flower_squer {
-        height: 100vw; 
-        width: 100vw;
-        border: 0vw;
-    }
-
-    .bassclap_squer {
-        width: 100vw;
-        height: 100;
-        font-size: 18vw;
-        flex-direction: column;
-        border-left: none;
-        border-right: none;
-        font-size: 16vw;
-    }
-
-    .bassline1 {
-        width: 100vw;
-        height: 50vw;
-    }
-
-    .bass {
-        width: 50vw;
-        border-left: none;
-    }
-
-    .plastinka img {
-        margin: 5vw 5vw;
-    }
-
-    .clap {
-        width: 50vw;
-        border-right: none;
-       
-    }
-
-    .bassline2 {
-        width: 100vw;
-        height: 50vw;
-    }
-
-    .tune {
-        width: 50vw;
-        border-left: none;
-    }
-
-    .kick {
-        width: 50vw;
-        border-right: none;
-    }
-
-    .colonka_squer {
-        height: 100vw;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100vw;
-        border-left: none;
-        border-right: none;
-    }
-
-    .slider_squer {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 35vw;
-        width: 100vw;
-        border-left: none;
-        border-right: none;
-    }
-
-    .slider_box {
-        height: 10vw;
-        width: 80vw;
-        margin: 6vw;
-    }
-
-    .volume_stroke {
-        width: 70vw;
-        height: 10vw;
-    }
-
-        
-     .volume_box {
-        margin-top: -1vw;
-        width: 100vw;
-        height: 10vw;
-        }
-
-        .volume_line {
-            margin-top: 5vw;
-            width: 104vw;
-            height: 10vw;
-            animation: volumeanimatic 4s infinite ease-in;
-        }
-@keyframes  volumeanimatic {
-
-    0%, 50%, 100% {
-    }
-    20% {
-        transform: translateX(+50vw);
-    }
-    40% {
-        transform: translateX(+8vw);
-    }
-    60% {
-        transform: translateX(+4vw);
-    }
-    80% {
-        transform: translateX(+5vw);
-    }
 }
 
+
+.hiscreen {
+
+    background-image: url(../img/grid.svg);
+    background-size: cover; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.ageline {
+
+    padding-top: 16%;
+    padding-bottom: 2%;
+
+}
+
+
+.first_animation_line {
+
+    width: 100vw ;
+    height: 338vw;
+    flex-direction: column;
+    top: 0vw;
+}
+
+
+.flower_squer {
+
+    height: 100vw; 
+    width: 100vw;
+    border: 0vw;
+}
+
+
+.bassclap_squer {
+
+    width: 100vw;
+    height: 100;
+    font-size: 18vw;
+    flex-direction: column;
+    border-left: none;
+    border-right: none;
+    font-size: 16vw;
+}
+
+
+.bassline1 {
+
+    width: 100vw;
+    height: 50vw;
+
+}
+
+
+.bass {
+
+    width: 50vw;
+    border-left: none;
+
+}
+
+
+.plastinka img {
+
+    margin: 5vw 5vw;
+}
+
+
+.clap {
+
+    width: 50vw;
+    border-right: none;
+    
+}
+
+
+.bassline2 {
+
+    width: 100vw;
+    height: 50vw;
+
+}
+
+
+.tune {
+
+    width: 50vw;
+    border-left: none;
+}
+
+
+.kick {
+
+    width: 50vw;
+    border-right: none;
+
+}
+
+
+.colonka_squer {
+
+    height: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    border: none;
+    margin-left: 0vw;
+}
+
+
+.slider_squer {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vw;
+    width: 100vw;
+    border-left: none;
+    border-right: none;
+}
+
+
+.slider_box {
+
+    height: 10vw;
+    width: 80vw;
+    margin: 6vw;
+}
+
+.volume_stroke {
+
+    width: 70vw;
+    height: 10vw;
+    
+}
+
+    
+.volume_box {
+
+    margin-top: -1vw;
+    width: 100vw;
+    height: 10vw;
+
+}
+
+.volume_line {
+
+    margin-top: 5vw;
+    width: 104vw;
+    height: 10vw;
+    animation: volumeanimatic 4s infinite ease-in;
+
+}
+
+
+@keyframes  volumeanimatic {
+
+    0%, 50%, 100% {}
+    20% {transform: translateX(+50vw);}
+    40% { transform: translateX(+8vw);}
+    60% {transform: translateX(+4vw);}
+    80% {transform: translateX(+5vw);}
+
+}
+
+
 .volume_button_1 {
+
     position: absolute;
     margin-right: 75vw;
     margin-top: 0.1vw;
@@ -209,64 +224,83 @@
     width: 6vw;
     height: 13vw;
     animation: button1 4s infinite ease-in;
+
 }
+
 
 @keyframes button1 {
-    0%, 50%, 100% {
-    }
-    20% {transform: translateX(+50vw);
-    }
-    40% {transform: translateX(+8vw);
-    }
-    60% {transform: translateX(+4vw);
-    }
-    80% {transform: translateX(+5vw);
-    }
+
+    0%, 50%, 100% {}
+    20% {transform: translateX(+50vw);}
+    40% {transform: translateX(+8vw);}
+    60% {transform: translateX(+4vw);}
+    80% {transform: translateX(+5vw);}
 }
 
+
+
 .DG {
+
     flex-direction: column;
-    height: 80vh;
+    height: 110vh;
     margin-top: -0.5vw;
     display: flex;
     justify-content: space-around;
     background-image: url(../img/background_adaptive.svg);
-  background-size: cover; 
-  border-right: none;
-  border-left: none;
+    background-size: cover; 
+    border-right: none;
+    border-left: none;
+
 }
 
+
+
 .djobchag {
+
     flex-direction: column;
     width: 100%;
     justify-content: center;
     align-items: center;
+
 }
 
+
 .dgline {
+
     flex-direction: column;
     justify-content: space-around;
     width: 93%;
+
 }
 
+
 .dg1 {
+
     margin: 0 0 10vw 0;
     width: 47vw;
     height: 47vw;
+
 }
 
+
 .dg2 {
+
     margin-bottom: 10vw;
     width: 47vw;
     height: 47vw;
+
 }
 
+
 .dg3 {
+
     width: 47vw;
     height: 47vw;
+
 }
 
 .flower_pixel {
+
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -274,27 +308,38 @@
     height: 108vw;
     border-right: none;
     border-left: none;
+
 }
 
 .pixel {
+
     width: 15vw;
     height: 15vw;
+
 }
+
 
 .afisha_item{
 
     font-size: 12vw;
+
 }
+
 
 .afisha {
+
     padding-top: 3%;
     padding-bottom: 3%;
+
 }
 
+
 .line_data_item {
+
     margin: -0.3vw;
     font-size: 12vw;
     animation: dataanimatic 20s infinite linear; 
+
 }
 
 
@@ -302,7 +347,8 @@
 
     animation-duration: 10s;
   
-  }
+}
+
 
 
 .second_animation_line {
@@ -311,47 +357,63 @@
 }
 
 .line_data_intro {
+
     padding-top: 3%;
     padding-bottom: 3%;
     font-size: 12vw;
+
 }
 
 .flower_kvadrat {
+
     height: 150vw;
     width: 100vw;
     border-left: none;
     border-right: none;
+
 }
 
+
 .kontroller {
+
     width: 100vw;
     height: 100vw;
     border-left: none;
     border-right: none;
+
 }
 
+
 .controllerin {
+
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
+
 .line_data {
+
     margin-top: 354.47vw;
     width: 100.06vw;
     height: 17vw;
     margin-left: 0;
     border-left: none;
     border-right: none;
+
 }
+
 
 .line_data_item:hover {
 
     animation-duration: 10s;
   
-  }
+}
+
 
 .third_animation_line {
+
     height: 65vw;
     position: relative;
     display: flex;
@@ -365,345 +427,471 @@
   
 }
 
+
 .bottomhover {
+
     padding: -0.5vw 5vw;
     margin: 47vw 12vw;
     font-size: 10vw;
 }
 
+
 .krutayachtuka {
+
     height: 45vh;
+
 }
 
+
 .my_name {
+
     top: 0vw;
+
 }
 
 .my_name_text_item {
+
     font-size: 12vw;
+
 }
 
 .my_name_text {
 
     padding-top: 3%;
     padding-bottom: 3%;
+
 }
 
 
-@media screen and (max-width: 414px) {
+
+@media screen and (max-width: 415px) {
 
     body {
-        border: 0.5vw solid rgb(255, 255, 255); /* Задаем обводку шириной 0.5vw с цветом black */
-        margin: 0; /* Убираем отступы по умолчанию */
-        padding: 0; /* Убираем внутренние отступы по умолчанию */
+
+        border: 0.5vw solid rgb(255, 255, 255); 
+        margin: 0; 
+        padding: 0; /
+        
+    }
+    
+    
+    .hiscreen {
+    
+        background-image: url(../img/grid.svg);
+        background-size: cover; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    
+    .ageline {
+    
+        padding-top: 16%;
+        padding-bottom: 2%;
+    
+    }
+    
+    
+    .first_animation_line {
+    
+        width: 100vw ;
+        height: 338vw;
+        flex-direction: column;
+        top: 0vw;
+    }
+    
+    
+    .flower_squer {
+    
+        height: 100vw; 
+        width: 100vw;
+        border: 0vw;
+    }
+    
+    
+    .bassclap_squer {
+    
+        width: 100vw;
+        height: 100;
+        font-size: 18vw;
+        flex-direction: column;
+        border-left: none;
+        border-right: none;
+        font-size: 16vw;
+    }
+    
+    
+    .bassline1 {
+    
+        width: 100vw;
+        height: 50vw;
+    
+    }
+    
+    
+    .bass {
+    
+        width: 50vw;
+        border-left: none;
+    
+    }
+    
+    
+    .plastinka img {
+    
+        margin: 5vw 5vw;
+    }
+    
+    
+    .clap {
+    
+        width: 50vw;
+        border-right: none;
+        
+    }
+    
+    
+    .bassline2 {
+    
+        width: 100vw;
+        height: 50vw;
+    
+    }
+    
+    
+    .tune {
+    
+        width: 50vw;
+        border-left: none;
+    }
+    
+    
+    .kick {
+    
+        width: 50vw;
+        border-right: none;
+    
+    }
+    
+    
+    .colonka_squer {
+    
+        height: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        border: none;
+        margin-left: 0vw;
+    }
+    
+    
+    .slider_squer {
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 35vw;
+        width: 100vw;
+        border-left: none;
+        border-right: none;
+    }
+    
+    
+    .slider_box {
+    
+        height: 10vw;
+        width: 80vw;
+        margin: 6vw;
+    }
+    
+    .volume_stroke {
+    
+        width: 70vw;
+        height: 10vw;
+        
+    }
+    
+        
+    .volume_box {
+    
+        margin-top: -1vw;
+        width: 100vw;
+        height: 10vw;
+    
+    }
+    
+    .volume_line {
+    
+        margin-top: 5vw;
+        width: 104vw;
+        height: 10vw;
+        animation: volumeanimatic 4s infinite ease-in;
+    
+    }
+    
+    
+    @keyframes  volumeanimatic {
+    
+        0%, 50%, 100% {}
+        20% {transform: translateX(+50vw);}
+        40% { transform: translateX(+8vw);}
+        60% {transform: translateX(+4vw);}
+        80% {transform: translateX(+5vw);}
+    
+    }
+    
+    
+    .volume_button_1 {
+    
+        position: absolute;
+        margin-right: 75vw;
+        margin-top: 0.1vw;
+        display: flex;
+        width: 6vw;
+        height: 13vw;
+        animation: button1 4s infinite ease-in;
+    
+    }
+    
+    
+    @keyframes button1 {
+    
+        0%, 50%, 100% {}
+        20% {transform: translateX(+50vw);}
+        40% {transform: translateX(+8vw);}
+        60% {transform: translateX(+4vw);}
+        80% {transform: translateX(+5vw);}
+    }
+    
+    
+    
+    .DG {
+    
+        flex-direction: column;
+        height: 110vh;
+        margin-top: -0.5vw;
+        display: flex;
+        justify-content: space-around;
+        background-image: url(../img/background_adaptive.svg);
+        background-size: cover; 
+        border-right: none;
+        border-left: none;
+    
+    }
+    
+    
+    
+    .djobchag {
+    
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    
+    .dgline {
+    
+        flex-direction: column;
+        justify-content: space-around;
+        width: 93%;
+    
+    }
+    
+    
+    .dg1 {
+    
+        margin: 0 0 10vw 0;
+        width: 47vw;
+        height: 47vw;
+    
+    }
+    
+    
+    .dg2 {
+    
+        margin-bottom: 10vw;
+        width: 47vw;
+        height: 47vw;
+    
+    }
+    
+    
+    .dg3 {
+    
+        width: 47vw;
+        height: 47vw;
+    
+    }
+    
+    .flower_pixel {
+    
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100vw;
+        height: 108vw;
+        border-right: none;
+        border-left: none;
+    
+    }
+    
+    .pixel {
+    
+        width: 15vw;
+        height: 15vw;
+    
+    }
+    
+    
+    .afisha_item{
+    
+        font-size: 12vw;
+    
+    }
+    
+    
+    .afisha {
+    
+        padding-top: 3%;
+        padding-bottom: 3%;
+    
+    }
+    
+    
+    .line_data_item {
+    
+        margin: -0.3vw;
+        font-size: 12vw;
+        animation: dataanimatic 20s infinite linear; 
+    
+    }
+    
+    
+    .line_data_item:hover {
+    
+        animation-duration: 10s;
       
     }
     
-
-    .hiscreen {
-        background-image: url(../img/grid.svg);
-        background-size: cover; 
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-    }
-
-    .ageline {
-        padding-top: 16%;
-        padding-bottom: 2%;
+    
+    
+    .second_animation_line {
+        flex-direction: column;
+        height: 370vw;
     }
     
-    .first_animation_line {
-        width: 100vw ;
-        height: 340vw;
-        flex-direction: column;
+    .line_data_intro {
+    
+        padding-top: 3%;
+        padding-bottom: 3%;
+        font-size: 12vw;
+    
     }
-
-    .flower_squer {
-        border: 0vw;
-        height: 100vw; 
+    
+    .flower_kvadrat {
+    
+        height: 150vw;
         width: 100vw;
-    }
-
-    .bassclap_squer {
-        width: 100vw;
-        height: 100;
-        font-size: 18vw;
-        flex-direction: column;
         border-left: none;
         border-right: none;
-        font-size: 16vw;
+    
     }
-
-    .bassline1 {
+    
+    
+    .kontroller {
+    
         width: 100vw;
-        height: 50vw;
-    }
-
-    .bass {
-        width: 50vw;
-        border-left: none;
-        
-    }
-
-    .plastinka img {
-        margin: 5vw 5vw;
-    }
-
-    .clap {
-        width: 50vw;
-        border-right: none;
-       
-    }
-
-    .bassline2 {
-        width: 100vw;
-        height: 50vw;
-    }
-
-    .tune {
-        width: 50vw;
-        border-left: none;
-    }
-
-    .kick {
-        width: 50vw;
-        border-right: none;
-    }
-
-    .colonka_squer {
         height: 100vw;
+        border-left: none;
+        border-right: none;
+    
+    }
+    
+    
+    .controllerin {
+    
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 100vw;
+    
+    }
+    
+    
+    .line_data {
+    
+        margin-top: 354.47vw;
+        width: 100.06vw;
+        height: 17vw;
+        margin-left: 0;
         border-left: none;
         border-right: none;
+    
     }
-
-    .slider_squer {
+    
+    
+    .line_data_item:hover {
+    
+        animation-duration: 10s;
+      
+    }
+    
+    
+    .third_animation_line {
+    
+        height: 65vw;
+        position: relative;
         display: flex;
+        top: 0vw;
+        border: 0.5vw solid #FFF;
         justify-content: center;
-        align-items: center;
-        height: 35vw;
-        width: 100vw;
-        border-left: none;
-        border-right: none;
+        align-items: flex-end;
+        padding: 3vw;
+        margin-top: -1.6vw;
+        border-top: none;
+      
+    }
+    
+    
+    .bottomhover {
+    
+        padding: -0.5vw 5vw;
+        margin: 47vw 12vw;
+        font-size: 10vw;
+    }
+    
+    
+    .krutayachtuka {
+    
+        height: 45vh;
+    
+    }
+    
+    
+    .my_name {
+    
+        top: 0vw;
+    
+    }
+    
+    .my_name_text_item {
+    
+        font-size: 12vw;
+    
+    }
+    
+    .my_name_text {
+    
+        padding-top: 3%;
+        padding-bottom: 3%;
+    
     }
 
-    .slider_box {
-        height: 10vw;
-        width: 80vw;
-        margin: 6vw;
-    }
-
-    .volume_stroke {
-        width: 70vw;
-        height: 10vw;
-    }
-
-        
-     .volume_box {
-        margin-top: -1vw;
-        width: 100vw;
-        height: 10vw;
-        }
-
-        .volume_line {
-            margin-top: 5vw;
-            width: 104vw;
-            height: 10vw;
-            animation: volumeanimatic 4s infinite ease-in;
-        }
-@keyframes  volumeanimatic {
-
-    0%, 50%, 100% {
-    }
-    20% {
-        transform: translateX(+50vw);
-    }
-    40% {
-        transform: translateX(+8vw);
-    }
-    60% {
-        transform: translateX(+4vw);
-    }
-    80% {
-        transform: translateX(+5vw);
-    }
-}
-
-.volume_button_1 {
-    position: absolute;
-    margin-right: 75vw;
-    margin-top: 0.1vw;
-    display: flex;
-    width: 6vw;
-    height: 13vw;
-    animation: button1 4s infinite ease-in;
-}
-
-@keyframes button1 {
-    0%, 50%, 100% {
-    }
-    20% {transform: translateX(+50vw);
-    }
-    40% {transform: translateX(+8vw);
-    }
-    60% {transform: translateX(+4vw);
-    }
-    80% {transform: translateX(+5vw);
-    }
-}
-
-.DG {
-    flex-direction: column;
-    height: 80vh;
-    margin-top: -0.5vw;
-    display: flex;
-    justify-content: space-around;
-    background-image: url(../img/background_adaptive.svg);
-  background-size: cover; 
-  border-right: none;
-  border-left: none;
-}
-
-.djobchag {
-    flex-direction: column;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-}
-
-.dgline {
-    flex-direction: column;
-    justify-content: space-around;
-    width: 93%;
-}
-
-.dg1 {
-    margin: 0 0 10vw 0;
-    width: 47vw;
-    height: 47vw;
-}
-
-.dg2 {
-    margin-bottom: 10vw;
-    width: 47vw;
-    height: 47vw;
-}
-
-.dg3 {
-    width: 47vw;
-    height: 47vw;
-}
-
-.flower_pixel {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    width: 100vw;
-    height: 108vw;
-}
-
-.pixel {
-    width: 15vw;
-    height: 15vw;
-}
-
-.afisha {
-    padding-top: 3%;
-    padding-bottom: 3%;
-}
-
-.afisha_item{
-    font-size: 12vw;
-}
-
-.line_data_item {
-    margin: -0.3vw;
-    font-size: 12vw;
-    animation: dataanimatic 20s infinite linear
-}
-
-.second_animation_line {
-    flex-direction: column;
-    height: 370vw;
-}
-
-.line_data_intro {
-    padding-top: 3%;
-    padding-bottom: 3%;
-    font-size: 12vw;
-}
-
-.flower_kvadrat {
-    height: 150vw;
-    width: 100vw;
-    border-left: none;
-    border-right: none;
-}
-
-.kontroller {
-    width: 100vw;
-    height: 100vw;
-    border-left: none;
-    border-right: none;
-}
-
-.controllerin {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.line_data {
-    margin-top: 354.47vw;
-    width: 100.06vw;
-    height: 17vw;
-    margin-left: 0;
-    border-left: none;
-    border-right: none;
-}
-
-.third_animation_line {
-    height: 65vw;
-    position: relative;
-    display: flex;
-    border: 0.5vw solid #FFF;
-    top: 0vw;
-    justify-content: center;
-    align-items: flex-end;
-    padding: 3vw;
-    margin-top: -1.6vw;
-    border-top: none;
-}
-
-.bottomhover {
-    padding: -0.5vw 5vw;
-    margin: 47vw 12vw;
-    font-size: 10vw;
-}
-
-.krutayachtuka {
-    height: 45vh;
-}
-
-.my_name_text_item {
-    font-size: 12vw;
-}
-
-.my_name {
-    top: 0vw;
-}
-
-.my_name_text {
-
-    padding-top: 3%;
-    padding-bottom: 3%;
-}
-
+   
 
 }
 
@@ -735,181 +923,190 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* ///////////////////////// телефон ипхон  ///////////////////////// */
 
 @media screen and (min-width: 359px) and (max-width: 360px) and (orientation: portrait) {
 
-    body {
-        border: 0.5vw solid rgb(255, 255, 255); /* Задаем обводку шириной 0.5vw с цветом black */
-        margin: 0; /* Убираем отступы по умолчанию */
-        padding: 0; /* Убираем внутренние отступы по умолчанию */
-        
-    }
+body {
+
+    border: 0.5vw solid rgb(255, 255, 255); 
+    margin: 0; 
+    padding: 0; /
     
-
-    .hiscreen {
-        background-image: url(../img/grid.svg);
-        background-size: cover; 
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-    }
-
-    .ageline {
-        padding-top: 16%;
-        padding-bottom: 2%;
-    }
-    
-    .first_animation_line {
-        width: 100vw ;
-        height: 340vw;
-        flex-direction: column;
-    }
-
-    .flower_squer {
-        height: 100vw; 
-        width: 100vw;
-        border: 0vw;
-    }
-
-    .bassclap_squer {
-        width: 100vw;
-        height: 100;
-        font-size: 18vw;
-        flex-direction: column;
-        border-left: none;
-        border-right: none;
-        font-size: 16vw;
-    }
-
-    .bassline1 {
-        width: 100vw;
-        height: 50vw;
-    }
-
-    .bass {
-        width: 50vw;
-        border-left: none;
-    }
-
-    .plastinka img {
-        margin: 5vw 5vw;
-    }
-
-    .clap {
-        width: 50vw;
-        border-right: none;
-       
-    }
-
-    .bassline2 {
-        width: 100vw;
-        height: 50vw;
-    }
-
-    .tune {
-        width: 50vw;
-        border-left: none;
-    }
-
-    .kick {
-        width: 50vw;
-        border-right: none;
-    }
-
-    .colonka_squer {
-        height: 100vw;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100vw;
-        border-left: none;
-        border-right: none;
-    }
-
-    .slider_squer {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 35vw;
-        width: 100vw;
-        border-left: none;
-        border-right: none;
-    }
-
-    .slider_box {
-        height: 10vw;
-        width: 80vw;
-        margin: 6vw;
-    }
-
-    .volume_stroke {
-        width: 70vw;
-        height: 10vw;
-    }
-
-        
-     .volume_box {
-        margin-top: -1vw;
-        width: 100vw;
-        height: 10vw;
-        }
-
-        .volume_line {
-            margin-top: 5vw;
-            width: 104vw;
-            height: 10vw;
-            animation: volumeanimatic 4s infinite ease-in;
-        }
-@keyframes  volumeanimatic {
-
-    0%, 50%, 100% {
-    }
-    20% {
-        transform: translateX(+50vw);
-    }
-    40% {
-        transform: translateX(+8vw);
-    }
-    60% {
-        transform: translateX(+4vw);
-    }
-    80% {
-        transform: translateX(+5vw);
-    }
 }
 
+
+.hiscreen {
+
+    background-image: url(../img/grid.svg);
+    background-size: cover; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.ageline {
+
+    padding-top: 16%;
+    padding-bottom: 2%;
+
+}
+
+
+.first_animation_line {
+
+    width: 100vw ;
+    height: 338vw;
+    flex-direction: column;
+    top: 0vw;
+}
+
+
+.flower_squer {
+
+    height: 100vw; 
+    width: 100vw;
+    border: 0vw;
+}
+
+
+.bassclap_squer {
+
+    width: 100vw;
+    height: 100;
+    font-size: 18vw;
+    flex-direction: column;
+    border-left: none;
+    border-right: none;
+    font-size: 16vw;
+}
+
+
+.bassline1 {
+
+    width: 100vw;
+    height: 50vw;
+
+}
+
+
+.bass {
+
+    width: 50vw;
+    border-left: none;
+
+}
+
+
+.plastinka img {
+
+    margin: 5vw 5vw;
+}
+
+
+.clap {
+
+    width: 50vw;
+    border-right: none;
+    
+}
+
+
+.bassline2 {
+
+    width: 100vw;
+    height: 50vw;
+
+}
+
+
+.tune {
+
+    width: 50vw;
+    border-left: none;
+}
+
+
+.kick {
+
+    width: 50vw;
+    border-right: none;
+
+}
+
+
+.colonka_squer {
+
+    height: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    border: none;
+    margin-left: 0vw;
+}
+
+
+.slider_squer {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vw;
+    width: 100vw;
+    border-left: none;
+    border-right: none;
+}
+
+
+.slider_box {
+
+    height: 10vw;
+    width: 80vw;
+    margin: 6vw;
+}
+
+.volume_stroke {
+
+    width: 70vw;
+    height: 10vw;
+    
+}
+
+    
+.volume_box {
+
+    margin-top: -1vw;
+    width: 100vw;
+    height: 10vw;
+
+}
+
+.volume_line {
+
+    margin-top: 5vw;
+    width: 104vw;
+    height: 10vw;
+    animation: volumeanimatic 4s infinite ease-in;
+
+}
+
+
+@keyframes  volumeanimatic {
+
+    0%, 50%, 100% {}
+    20% {transform: translateX(+50vw);}
+    40% { transform: translateX(+8vw);}
+    60% {transform: translateX(+4vw);}
+    80% {transform: translateX(+5vw);}
+
+}
+
+
 .volume_button_1 {
+
     position: absolute;
     margin-right: 75vw;
     margin-top: 0.1vw;
@@ -917,64 +1114,83 @@
     width: 6vw;
     height: 13vw;
     animation: button1 4s infinite ease-in;
+
 }
+
 
 @keyframes button1 {
-    0%, 50%, 100% {
-    }
-    20% {transform: translateX(+50vw);
-    }
-    40% {transform: translateX(+8vw);
-    }
-    60% {transform: translateX(+4vw);
-    }
-    80% {transform: translateX(+5vw);
-    }
+
+    0%, 50%, 100% {}
+    20% {transform: translateX(+50vw);}
+    40% {transform: translateX(+8vw);}
+    60% {transform: translateX(+4vw);}
+    80% {transform: translateX(+5vw);}
 }
 
+
+
 .DG {
+
     flex-direction: column;
-    height: 69vh;
+    height: 89vh;
     margin-top: -0.5vw;
     display: flex;
     justify-content: space-around;
     background-image: url(../img/background_adaptive.svg);
-  background-size: cover; 
-  border-right: none;
-  border-left: none;
+    background-size: cover; 
+    border-right: none;
+    border-left: none;
+
 }
 
+
+
 .djobchag {
+
     flex-direction: column;
     width: 100%;
     justify-content: center;
     align-items: center;
+
 }
 
+
 .dgline {
+
     flex-direction: column;
     justify-content: space-around;
     width: 93%;
+
 }
 
+
 .dg1 {
+
     margin: 0 0 10vw 0;
     width: 47vw;
     height: 47vw;
+
 }
 
+
 .dg2 {
+
     margin-bottom: 10vw;
     width: 47vw;
     height: 47vw;
+
 }
 
+
 .dg3 {
+
     width: 47vw;
     height: 47vw;
+
 }
 
 .flower_pixel {
+
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -982,35 +1198,47 @@
     height: 108vw;
     border-right: none;
     border-left: none;
+
 }
 
 .pixel {
+
     width: 15vw;
     height: 15vw;
+
 }
+
 
 .afisha_item{
 
     font-size: 12vw;
+
 }
+
 
 .afisha {
+
     padding-top: 3%;
     padding-bottom: 3%;
+
 }
 
+
 .line_data_item {
+
     margin: -0.3vw;
     font-size: 12vw;
     animation: dataanimatic 20s infinite linear; 
+
 }
 
 
 .line_data_item:hover {
 
     animation-duration: 10s;
-  
-  }
+    
+}
+
 
 
 .second_animation_line {
@@ -1019,47 +1247,63 @@
 }
 
 .line_data_intro {
+
     padding-top: 3%;
     padding-bottom: 3%;
     font-size: 12vw;
+
 }
 
 .flower_kvadrat {
+
     height: 150vw;
     width: 100vw;
     border-left: none;
     border-right: none;
+
 }
 
+
 .kontroller {
+
     width: 100vw;
     height: 100vw;
     border-left: none;
     border-right: none;
+
 }
 
+
 .controllerin {
+
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
+
 .line_data {
+
     margin-top: 354.47vw;
     width: 100.06vw;
     height: 17vw;
     margin-left: 0;
     border-left: none;
     border-right: none;
+
 }
+
 
 .line_data_item:hover {
 
     animation-duration: 10s;
-  
-  }
+    
+}
+
 
 .third_animation_line {
+
     height: 65vw;
     position: relative;
     display: flex;
@@ -1070,71 +1314,93 @@
     padding: 3vw;
     margin-top: -1.6vw;
     border-top: none;
-  
+    
 }
 
+
 .bottomhover {
+
     padding: -0.5vw 5vw;
     margin: 47vw 12vw;
     font-size: 10vw;
 }
 
+
 .krutayachtuka {
+
     height: 45vh;
+
 }
 
+
 .my_name {
+
     top: 0vw;
+
 }
 
 .my_name_text_item {
+
     font-size: 12vw;
+
 }
 
 .my_name_text {
 
     padding-top: 3%;
     padding-bottom: 3%;
-}
 
+}
 
 @media screen and (max-width: 360px) {
 
     body {
-        border: 0.5vw solid rgb(255, 255, 255); /* Задаем обводку шириной 0.5vw с цветом black */
-        margin: 0; /* Убираем отступы по умолчанию */
-        padding: 0; /* Убираем внутренние отступы по умолчанию */
-      
+
+        border: 0.5vw solid rgb(255, 255, 255); 
+        margin: 0; 
+        padding: 0; /
+        
     }
     
-
+    
     .hiscreen {
+    
         background-image: url(../img/grid.svg);
         background-size: cover; 
         display: flex;
         justify-content: center;
         align-items: center;
-
-    }
-
-    .ageline {
-        padding-top: 16%;
-        padding-bottom: 2%;
+    
     }
     
-    .first_animation_line {
-        width: 100vw ;
-        height: 340vw;
-        flex-direction: column;
+    
+    .ageline {
+    
+        padding-top: 16%;
+        padding-bottom: 2%;
+    
     }
-
+    
+    
+    .first_animation_line {
+    
+        width: 100vw ;
+        height: 338vw;
+        flex-direction: column;
+        top: 0vw;
+    }
+    
+    
     .flower_squer {
-        border: 0vw;
+    
         height: 100vw; 
         width: 100vw;
+        border: 0vw;
     }
-
+    
+    
     .bassclap_squer {
+    
         width: 100vw;
         height: 100;
         font-size: 18vw;
@@ -1143,54 +1409,75 @@
         border-right: none;
         font-size: 16vw;
     }
-
+    
+    
     .bassline1 {
+    
         width: 100vw;
         height: 50vw;
+    
     }
-
+    
+    
     .bass {
+    
         width: 50vw;
         border-left: none;
-        
+    
     }
-
+    
+    
     .plastinka img {
+    
         margin: 5vw 5vw;
     }
-
+    
+    
     .clap {
+    
         width: 50vw;
         border-right: none;
-       
+        
     }
-
+    
+    
     .bassline2 {
+    
         width: 100vw;
         height: 50vw;
+    
     }
-
+    
+    
     .tune {
+    
         width: 50vw;
         border-left: none;
     }
-
+    
+    
     .kick {
+    
         width: 50vw;
         border-right: none;
+    
     }
-
+    
+    
     .colonka_squer {
+    
         height: 100vw;
         display: flex;
         justify-content: center;
         align-items: center;
         width: 100vw;
-        border-left: none;
-        border-right: none;
+        border: none;
+        margin-left: 0vw;
     }
-
+    
+    
     .slider_squer {
+    
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1199,218 +1486,298 @@
         border-left: none;
         border-right: none;
     }
-
+    
+    
     .slider_box {
+    
         height: 10vw;
         width: 80vw;
         margin: 6vw;
     }
-
+    
     .volume_stroke {
+    
         width: 70vw;
         height: 10vw;
-    }
-
         
-     .volume_box {
+    }
+    
+        
+    .volume_box {
+    
         margin-top: -1vw;
         width: 100vw;
         height: 10vw;
-        }
-
-        .volume_line {
-            margin-top: 5vw;
-            width: 104vw;
-            height: 10vw;
-            animation: volumeanimatic 4s infinite ease-in;
-        }
-@keyframes  volumeanimatic {
-
-    0%, 50%, 100% {
+    
     }
-    20% {
-        transform: translateX(+50vw);
+    
+    .volume_line {
+    
+        margin-top: 5vw;
+        width: 104vw;
+        height: 10vw;
+        animation: volumeanimatic 4s infinite ease-in;
+    
     }
-    40% {
-        transform: translateX(+8vw);
+    
+    
+    @keyframes  volumeanimatic {
+    
+        0%, 50%, 100% {}
+        20% {transform: translateX(+50vw);}
+        40% { transform: translateX(+8vw);}
+        60% {transform: translateX(+4vw);}
+        80% {transform: translateX(+5vw);}
+    
     }
-    60% {
-        transform: translateX(+4vw);
+    
+    
+    .volume_button_1 {
+    
+        position: absolute;
+        margin-right: 75vw;
+        margin-top: 0.1vw;
+        display: flex;
+        width: 6vw;
+        height: 13vw;
+        animation: button1 4s infinite ease-in;
+    
     }
-    80% {
-        transform: translateX(+5vw);
+    
+    
+    @keyframes button1 {
+    
+        0%, 50%, 100% {}
+        20% {transform: translateX(+50vw);}
+        40% {transform: translateX(+8vw);}
+        60% {transform: translateX(+4vw);}
+        80% {transform: translateX(+5vw);}
     }
-}
-
-.volume_button_1 {
-    position: absolute;
-    margin-right: 75vw;
-    margin-top: 0.1vw;
-    display: flex;
-    width: 6vw;
-    height: 13vw;
-    animation: button1 4s infinite ease-in;
-}
-
-@keyframes button1 {
-    0%, 50%, 100% {
+    
+    
+    
+    .DG {
+    
+        flex-direction: column;
+        height: 89vh;
+        margin-top: -0.5vw;
+        display: flex;
+        justify-content: space-around;
+        background-image: url(../img/background_adaptive.svg);
+        background-size: cover; 
+        border-right: none;
+        border-left: none;
+    
     }
-    20% {transform: translateX(+50vw);
+    
+    
+    
+    .djobchag {
+    
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    
     }
-    40% {transform: translateX(+8vw);
+    
+    
+    .dgline {
+    
+        flex-direction: column;
+        justify-content: space-around;
+        width: 93%;
+    
     }
-    60% {transform: translateX(+4vw);
+    
+    
+    .dg1 {
+    
+        margin: 0 0 10vw 0;
+        width: 47vw;
+        height: 47vw;
+    
     }
-    80% {transform: translateX(+5vw);
+    
+    
+    .dg2 {
+    
+        margin-bottom: 10vw;
+        width: 47vw;
+        height: 47vw;
+    
     }
-}
-
-.DG {
-    flex-direction: column;
-    height: 69vh;
-    margin-top: -0.5vw;
-    display: flex;
-    justify-content: space-around;
-    background-image: url(../img/background_adaptive.svg);
-  background-size: cover; 
-  border-right: none;
-  border-left: none;
-}
-
-.djobchag {
-    flex-direction: column;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-}
-
-.dgline {
-    flex-direction: column;
-    justify-content: space-around;
-    width: 93%;
-}
-
-.dg1 {
-    margin: 0 0 10vw 0;
-    width: 47vw;
-    height: 47vw;
-}
-
-.dg2 {
-    margin-bottom: 10vw;
-    width: 47vw;
-    height: 47vw;
-}
-
-.dg3 {
-    width: 47vw;
-    height: 47vw;
-}
-
-.flower_pixel {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    width: 100vw;
-    height: 108vw;
-}
-
-.pixel {
-    width: 15vw;
-    height: 15vw;
-}
-
-.afisha {
-    padding-top: 3%;
-    padding-bottom: 3%;
-}
-
-.afisha_item{
-    font-size: 12vw;
-}
-
-.line_data_item {
-    margin: -0.3vw;
-    font-size: 12vw;
-    animation: dataanimatic 20s infinite linear
-}
-
-.second_animation_line {
-    flex-direction: column;
-    height: 370vw;
-}
-
-.line_data_intro {
-    padding-top: 3%;
-    padding-bottom: 3%;
-    font-size: 12vw;
-}
-
-.flower_kvadrat {
-    height: 150vw;
-    width: 100vw;
-    border-left: none;
-    border-right: none;
-}
-
-.kontroller {
-    width: 100vw;
-    height: 100vw;
-    border-left: none;
-    border-right: none;
-}
-
-.controllerin {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.line_data {
-    margin-top: 354.47vw;
-    width: 100.06vw;
-    height: 17vw;
-    margin-left: 0;
-    border-left: none;
-    border-right: none;
-}
-
-.third_animation_line {
-    height: 65vw;
-    position: relative;
-    display: flex;
-    border: 0.5vw solid #FFF;
-    top: 0vw;
-    justify-content: center;
-    align-items: flex-end;
-    padding: 3vw;
-    margin-top: -1.6vw;
-    border-top: none;
-}
-
-.bottomhover {
-    padding: -0.5vw 5vw;
-    margin: 47vw 12vw;
-    font-size: 10vw;
-}
-
-.krutayachtuka {
-    height: 45vh;
-}
-
-.my_name_text_item {
-    font-size: 12vw;
-}
-
-.my_name {
-    top: 0vw;
-}
-
-.my_name_text {
-
-    padding-top: 3%;
-    padding-bottom: 3%;
-}
+    
+    
+    .dg3 {
+    
+        width: 47vw;
+        height: 47vw;
+    
+    }
+    
+    .flower_pixel {
+    
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100vw;
+        height: 108vw;
+        border-right: none;
+        border-left: none;
+    
+    }
+    
+    .pixel {
+    
+        width: 15vw;
+        height: 15vw;
+    
+    }
+    
+    
+    .afisha_item{
+    
+        font-size: 12vw;
+    
+    }
+    
+    
+    .afisha {
+    
+        padding-top: 3%;
+        padding-bottom: 3%;
+    
+    }
+    
+    
+    .line_data_item {
+    
+        margin: -0.3vw;
+        font-size: 12vw;
+        animation: dataanimatic 20s infinite linear; 
+    
+    }
+    
+    
+    .line_data_item:hover {
+    
+        animation-duration: 10s;
+      
+    }
+    
+    
+    
+    .second_animation_line {
+        flex-direction: column;
+        height: 370vw;
+    }
+    
+    .line_data_intro {
+    
+        padding-top: 3%;
+        padding-bottom: 3%;
+        font-size: 12vw;
+    
+    }
+    
+    .flower_kvadrat {
+    
+        height: 150vw;
+        width: 100vw;
+        border-left: none;
+        border-right: none;
+    
+    }
+    
+    
+    .kontroller {
+    
+        width: 100vw;
+        height: 100vw;
+        border-left: none;
+        border-right: none;
+    
+    }
+    
+    
+    .controllerin {
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    
+    .line_data {
+    
+        margin-top: 354.47vw;
+        width: 100.06vw;
+        height: 17vw;
+        margin-left: 0;
+        border-left: none;
+        border-right: none;
+    
+    }
+    
+    
+    .line_data_item:hover {
+    
+        animation-duration: 10s;
+      
+    }
+    
+    
+    .third_animation_line {
+    
+        height: 65vw;
+        position: relative;
+        display: flex;
+        top: 0vw;
+        border: 0.5vw solid #FFF;
+        justify-content: center;
+        align-items: flex-end;
+        padding: 3vw;
+        margin-top: -1.6vw;
+        border-top: none;
+      
+    }
+    
+    
+    .bottomhover {
+    
+        padding: -0.5vw 5vw;
+        margin: 47vw 12vw;
+        font-size: 10vw;
+    }
+    
+    
+    .krutayachtuka {
+    
+        height: 45vh;
+    
+    }
+    
+    
+    .my_name {
+    
+        top: 0vw;
+    
+    }
+    
+    .my_name_text_item {
+    
+        font-size: 12vw;
+    
+    }
+    
+    .my_name_text {
+    
+        padding-top: 3%;
+        padding-bottom: 3%;
+    
+    }
 
 
 }
